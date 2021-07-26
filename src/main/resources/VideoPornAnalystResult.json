@@ -1,0 +1,24 @@
+{
+  "id": "abc",
+  "input_file_name": "abc",
+  "output_file_name": "abc",
+  "video_input_gs_uri": "abc",
+  "is_porn": true,
+  "analysis_duration_time": {
+		"seconds": 123,
+		"milliseconds": 123,
+		"nanoseconds": 123
+  },
+  "frames_analysis": [
+    {
+  		"id": 1,
+  		"type": "abc",
+  		"duration": 1.0    
+    },
+    {
+    	"id": 1,
+  		"type": "abc",
+  		"duration": 1.0    
+    }
+  ]
+}
