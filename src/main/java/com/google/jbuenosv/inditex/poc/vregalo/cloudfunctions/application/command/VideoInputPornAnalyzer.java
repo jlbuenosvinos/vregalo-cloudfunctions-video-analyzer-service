@@ -75,6 +75,8 @@ public class VideoInputPornAnalyzer {
             videoPornAnalystResult.setVideoPornAnalystMetricsResult(videoPornAnalystMetricsResult);
 
             videoPornAnalystResult.setPorn(Boolean.FALSE);
+            videoPornAnalystResult.setHasFramesAnalysisResults(Boolean.FALSE);
+            videoPornAnalystResult.setHasResults(Boolean.FALSE);
 
             if (results != null) {
 

@@ -43,6 +43,7 @@ public class NewVideoInputSubmittedCommandHandler implements  CommandHandler {
             VideoInputPornAnalyzer  videoInputPornAnalyzer = (VideoInputPornAnalyzer)beansContext.getBean("pornAnalyzer");
             // video analysis
             VideoPornAnalystResult result = videoInputPornAnalyzer.analyzeVideoInput(video);
+            logger.info("The video has been analyzed.");
 
             logger.info("VideoPornAnalystResult [" + result.toJson() + "]");
 

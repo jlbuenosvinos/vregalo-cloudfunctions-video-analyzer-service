@@ -131,6 +131,7 @@ public class VideoPornAnalystResult implements Serializable {
             result.append(NEW_LINE);
         }
         result.append("}");
+        logger.info("VideoPornAnalystResult JSON model has been built.");
         return result.toString();
     }
 
