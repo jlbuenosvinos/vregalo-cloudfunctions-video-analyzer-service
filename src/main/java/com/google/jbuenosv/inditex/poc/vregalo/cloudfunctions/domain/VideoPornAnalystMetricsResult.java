@@ -1,7 +1,6 @@
 package com.google.jbuenosv.inditex.poc.vregalo.cloudfunctions.domain;
 
 import java.io.Serializable;
-import java.time.Duration;
 
 /**
  * Created by jbuenosv@google.com

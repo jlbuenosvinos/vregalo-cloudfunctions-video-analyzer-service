@@ -1,9 +1,5 @@
 package com.google.jbuenosv.inditex.poc.vregalo.cloudfunctions.domain;
 
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.jbuenosv.inditex.poc.vregalo.cloudfunctions.application.exception.VideoAnalyzerServiceException;
-
 import java.io.Serializable;
 import java.util.logging.Logger;
 

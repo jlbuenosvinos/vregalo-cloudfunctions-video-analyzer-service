@@ -15,6 +15,9 @@ import java.util.List;
 import java.util.concurrent.ExecutionException;
 import java.util.logging.Logger;
 
+/**
+ * Created by jbuenosv@google.com
+ */
 public class VideoInputPornAnalyzer {
 
     public static final Logger logger = Logger.getLogger(VideoInputPornAnalyzer.class.getName());
