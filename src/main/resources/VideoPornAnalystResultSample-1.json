@@ -1,13 +1,13 @@
 {
-  "id": "1b7d18feac20623c19b8651ca380808f3ed2dcd4d84587eec89b386d5eeda2e9",
+  "id": "aaa6a6749ee74785d2ffd22c1cbb23b3db443da37616b132b200faed6926fb0f",
   "input_file_name": "IMG_0057.MOV",
   "output_file_name": "IMG_0057.json",
   "video_input_gs_uri": "gs://video-input-store/IMG_0057.MOV",
   "is_porn": true,
   "analysis_duration_time": {
-    "seconds": 37,
-    "milliseconds": 37071,
-    "nanoseconds": 37071064000
+    "seconds": 21,
+    "milliseconds": 21868,
+    "nanoseconds": 21868558000
   },
   "frames_analysis": [
     {
@@ -45,5 +45,4 @@
       "type": "VERY_LIKELY",
       "duration": 15.913741
     }
-  ]
-}
+  ]}
