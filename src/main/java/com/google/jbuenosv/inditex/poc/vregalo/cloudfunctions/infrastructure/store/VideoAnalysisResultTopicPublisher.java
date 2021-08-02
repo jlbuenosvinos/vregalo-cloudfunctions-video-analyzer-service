@@ -33,7 +33,7 @@ public class VideoAnalysisResultTopicPublisher {
             TopicName topicName = TopicName.of(projectName,videoAnalysisOutputTopicName);
             publisher = Publisher.newBuilder(topicName).build();
         } catch (IOException e) {
-            throw new VideoAnalyzerServiceException(e.getMessage());
+            throw new VideoAnalyzerServiceException(e.getCause());
         }
     }
 

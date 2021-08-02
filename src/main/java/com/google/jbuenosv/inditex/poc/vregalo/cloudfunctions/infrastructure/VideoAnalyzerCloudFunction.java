@@ -2,6 +2,7 @@ package com.google.jbuenosv.inditex.poc.vregalo.cloudfunctions.infrastructure;
 
 import com.google.cloud.functions.BackgroundFunction;
 import com.google.cloud.functions.Context;
+import com.google.jbuenosv.inditex.poc.vregalo.cloudfunctions.application.exception.VideoAnalyzerServiceException;
 import com.google.jbuenosv.inditex.poc.vregalo.cloudfunctions.application.process.VideoInputProcessManager;
 import com.google.jbuenosv.inditex.poc.vregalo.cloudfunctions.application.process.VideoInputProcessManagerImpl;
 import com.google.jbuenosv.inditex.poc.vregalo.cloudfunctions.domain.VideoInput;
@@ -30,7 +31,7 @@ public class VideoAnalyzerCloudFunction implements BackgroundFunction<PubSubEven
         }
         catch(Exception e) {
             logger.severe("Unable to process the event message  [" + message.toString() + "]");
-            throw e;
+            throw new VideoAnalyzerServiceException(e.getCause());
         }
 
     }

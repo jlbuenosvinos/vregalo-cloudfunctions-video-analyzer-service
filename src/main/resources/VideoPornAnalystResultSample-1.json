@@ -1,0 +1,49 @@
+{
+  "id": "1b7d18feac20623c19b8651ca380808f3ed2dcd4d84587eec89b386d5eeda2e9",
+  "input_file_name": "IMG_0057.MOV",
+  "output_file_name": "IMG_0057.json",
+  "video_input_gs_uri": "gs://video-input-store/IMG_0057.MOV",
+  "is_porn": true,
+  "analysis_duration_time": {
+    "seconds": 37,
+    "milliseconds": 37071,
+    "nanoseconds": 37071064000
+  },
+  "frames_analysis": [
+    {
+      "id": 0,
+      "type": "LIKELY",
+      "duration": 0.342922
+    },
+    {
+      "id": 2,
+      "type": "LIKELY",
+      "duration": 2.30522
+    },
+    {
+      "id": 5,
+      "type": "LIKELY",
+      "duration": 5.114381
+    },
+    {
+      "id": 6,
+      "type": "VERY_LIKELY",
+      "duration": 6.234506
+    },
+    {
+      "id": 7,
+      "type": "VERY_LIKELY",
+      "duration": 7.427947
+    },
+    {
+      "id": 14,
+      "type": "LIKELY",
+      "duration": 15.07557
+    },
+    {
+      "id": 15,
+      "type": "VERY_LIKELY",
+      "duration": 15.913741
+    }
+  ]
+}
